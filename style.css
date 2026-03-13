@@ -66,3 +66,55 @@ li {
     text-decoration: line-through;
     color: gray;
 }
+
+
+/* -------------------- */
+/* 📱 태블릿 이하 (768px) */
+/* -------------------- */
+@media (max-width: 768px) {
+
+    body {
+        margin-top: 50px;
+        padding: 10px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    input {
+        width: 65%;
+    }
+
+}
+
+
+/* -------------------- */
+/* 📱 모바일 (480px 이하) */
+/* -------------------- */
+@media (max-width: 480px) {
+
+    body {
+        margin-top: 30px;
+    }
+
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    li {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+}
